@@ -1,0 +1,6 @@
+//Impliment these settings into your description.ext
+
+class CfgSounds {
+	sounds[] = {};
+	#include "NJ_Twins\cfgSounds.hpp"
+};
