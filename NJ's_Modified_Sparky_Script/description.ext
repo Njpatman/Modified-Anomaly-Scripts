@@ -1,0 +1,46 @@
+class CfgSounds
+{
+	class magnetic_pulse
+	{
+		name = "magnetic_pulse";
+		sound[] = {"NJ_Spark\sound\magnetic_pulse.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class sparks_1
+	{
+		name = "sparks_1";
+		sound[] = {"NJ_Spark\sound\sparks_1.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};
+	class sparks_2
+	{
+		name = "sparks_2";
+		sound[] = {"NJ_Spark\sound\sparks_2.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};
+	class after_01
+	{
+		name = "after_01";
+		sound[] = {"NJ_Spark\sound\after_01.ogg", 0.5, 1};
+		titles[] = {1, ""};
+	};
+	class after_02
+	{
+		name = "after_02";
+		sound[] = {"NJ_Spark\sound\after_02.ogg", 0.7, 1};
+		titles[] = {1, ""};
+	};
+	class 01_atak
+	{
+		name = "01_atak";
+		sound[] = {"NJ_Spark\sound\01_atak.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};
+	class 02_atak
+	{
+		name = "02_atak";
+		sound[] = {"NJ_Spark\sound\02_atak.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};
+
+};

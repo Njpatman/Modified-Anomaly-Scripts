@@ -1,0 +1,53 @@
+//Impliment these settings into your descrition.sqf
+
+class CfgFunctions {
+
+	class njp
+	{
+		class screamerdamage
+		{
+			file = "NJ_Screamer\functions";
+			class apply_damage{};
+		};
+		class screamer_veh_damage
+		{
+			file = "NJ_Screamer\functions";
+			class apply_veh_damage{};
+		};
+	};
+};
+
+class CfgSounds
+{
+		class miscare_screamer
+	{
+		name = "miscare_screamer";
+		sound[] = {"NJ_Screamer\sound\miscare_screamer.ogg", db+20, 1};
+		titles[] = {};
+	};
+	class scream
+	{
+		name = "scream";
+		sound[] = {"NJ_Screamer\sound\scream.ogg", db+20, 1};
+		titles[] = {};
+	};
+	class stones_scream
+	{
+		name = "stones_scream";
+		sound[] = {"NJ_Screamer\sound\stones_scream.ogg", db+20, 1};
+		titles[] = {};
+	};	
+	class teleport_screamer	
+	{
+		name = "teleport_screamer";
+		sound[] = {"NJ_Screamer\sound\teleport_screamer.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class earthquakes	
+	{
+		name = "earthquakes";
+		sound[] = {"NJ_Screamer\sound\earthquakes.ogg", 1, 1};
+		titles[] = {};
+	};		
+
+};
